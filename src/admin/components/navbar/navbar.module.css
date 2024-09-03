@@ -1,0 +1,11 @@
+.navRow {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 1fr 10fr 1fr;
+}
+
+.navRow main {
+    display: flex;
+    align-items: normal;
+    flex-direction: column;
+}
