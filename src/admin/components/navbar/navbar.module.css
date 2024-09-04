@@ -4,8 +4,31 @@
     grid-template-rows: 1fr 10fr 1fr;
 }
 
+.navRow header {
+    display: flex;
+    place-items: center;
+    margin-left: 1rem
+}
+
 .navRow main {
     display: flex;
     align-items: normal;
     flex-direction: column;
+    padding: 1rem;
+}
+
+.logoText {
+    font-size: 2.369rem;
+    margin-left: 0.5rem;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+}
+
+.buttonContent svg {
+    width: 24px;
+    stroke-width: 2px;
+    margin-right: 5px;
 }
