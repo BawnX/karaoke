@@ -1,4 +1,6 @@
 .card {
     background-color: var(--card, #000);
     height: 100%;
+    display: grid;
+
 }

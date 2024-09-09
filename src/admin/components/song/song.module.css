@@ -1,0 +1,32 @@
+.song {
+    border-top: 1px solid var(--background-700);
+    border-bottom: 1px solid var(--background-700);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.song:first-child {
+    border-bottom: none;
+}
+
+.song:last-child {
+    border-top: none;
+}
+
+.song:nth-child(2) {
+    border-top: 1px solid var(--background-700);
+    border-bottom: 1px solid var(--background-700);
+}
+
+.song div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    padding: 0 10px;
+}

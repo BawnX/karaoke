@@ -1,0 +1,13 @@
+.main {
+    height: 98%;
+    width: 99%;
+    align-self: center;
+    justify-self: end;
+}
+
+.content {
+    height: 96%;
+    width: 96%;
+    align-self: center;
+    justify-self: center;
+}

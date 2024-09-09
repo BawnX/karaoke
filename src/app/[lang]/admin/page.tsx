@@ -1,4 +1,7 @@
+import GroupSong from "@/admin/components/groupSong";
+import MainContent from "@/admin/components/main";
 import { Navbar } from "@/admin/components/navbar";
+import Card from "@/common/components/card";
 import { translations } from "@/common/const/translation";
 import { Metadata } from "next";
 
@@ -19,6 +22,11 @@ export async function generateMetadata(
 
 export default function Admin() {
     return (
-        < Navbar />
+        <>
+            < Navbar />
+            <MainContent>
+                <GroupSong />
+            </MainContent>
+        </>
     )
 }
